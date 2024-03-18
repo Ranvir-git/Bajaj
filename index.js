@@ -5,7 +5,7 @@ const app= express();
 app.use(express.json());
 
 
-app.post('bhfl/process_array',(req,res)=>{
+app.post('bhfl/process',(req,res)=>{
   const {array}= req.body;
   const status = "Success";
   
